@@ -60,10 +60,7 @@ namespace ComicBookGallery.Data
         }
      };
 
-        internal object GetComicBook()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public ComicBook[] GetComicBooks()
         {

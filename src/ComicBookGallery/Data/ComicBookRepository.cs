@@ -60,6 +60,15 @@ namespace ComicBookGallery.Data
         }
      };
 
+        internal object GetComicBook()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ComicBook[] GetComicBooks()
+        {
+            return _comicBooks;
+        }
 
         public ComicBook GetComicBook(int id)
     {
